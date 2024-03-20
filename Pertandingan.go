@@ -15,7 +15,7 @@ func main() {
 	rataRataLumbaLumba := hitungRataRata(skorLumbaLumba)
 	rataRataKoala := hitungRataRata(skorKoala)
 
-	// Bandingkan skor rata-rata untuk menentukan pemenang
+	// Bandingkan skor rata-rata untuk menentukan pemenang dari setiap tim
 	if rataRataLumbaLumba > rataRataKoala && rataRataLumbaLumba >= 100 {
 		fmt.Println("Pemenangnya adalah Tim Lumba-lumba!")
 		fmt.Printf("Skor rata-rata Tim Lumba-lumba: %.2f\n", rataRataLumbaLumba)
